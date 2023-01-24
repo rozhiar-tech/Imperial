@@ -1755,7 +1755,7 @@ footer-default
   padding-top: 162px;
   padding-bottom: 70px;
   background: #9a1b31;
-  color: #C69B69;
+  color: #c69b69;
 }
 
 .footer-default__head {
@@ -3169,7 +3169,6 @@ full-screen-block
   left: 0;
   right: 0;
   z-index: 5;
- 
 }
 
 .full-screen-block__footer-inner {
@@ -3528,6 +3527,7 @@ header
   -ms-flex-align: start;
   align-items: flex-start;
   position: relative;
+  
 }
 
 .header__menu-button {
@@ -6356,10 +6356,9 @@ reviews-block
   overflow: hidden;
   background-color: #9a1b31;
 }
-.hrLine{
+.hrLine {
   border: 1px solid #c69b69;
   width: 100%;
-  
 }
 
 .reviews-block_template_zoom {
