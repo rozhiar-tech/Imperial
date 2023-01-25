@@ -4290,9 +4290,10 @@ main-slide
   cursor: pointer;
   font-family: "Teko", Helvetica, sans-serif;
   font-size: 30px;
-  color: #f24a00;
+  color: #c69b69;
   line-height: 1.4;
   background-color: #9a1b31;
+  margin-left: 40px;
 }
 
 .main-slide__link:after {
