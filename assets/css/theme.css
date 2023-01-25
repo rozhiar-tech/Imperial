@@ -3527,7 +3527,6 @@ header
   -ms-flex-align: start;
   align-items: flex-start;
   position: relative;
-  
 }
 
 .header__menu-button {
@@ -4282,7 +4281,8 @@ main-slide
   font-family: inherit;
   text-decoration: none;
   transition: 0.3s ease;
-  display: inline-block;
+  display: inline-flex;
+  width: auto;
   vertical-align: top;
   position: relative;
   background: none;
@@ -4292,6 +4292,7 @@ main-slide
   font-size: 30px;
   color: #f24a00;
   line-height: 1.4;
+  background-color: #9a1b31;
 }
 
 .main-slide__link:after {
