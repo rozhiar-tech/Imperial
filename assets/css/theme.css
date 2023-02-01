@@ -6966,6 +6966,7 @@ specialization-block
   max-width: 100%;
   display: flex;
   margin: 0;
+  background-color: #9a1b31;
 }
 .bloc-img2 {
   transform: scaleX(-1);
