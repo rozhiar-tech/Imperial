@@ -4223,7 +4223,7 @@ main-slide
 
 .main-slide__title {
   font-family: "Teko", Helvetica, sans-serif;
-  font-size: 180px;
+  font-size: 80px;
   line-height: 0.75;
   -ms-flex-positive: 1;
   flex-grow: 1;
