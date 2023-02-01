@@ -4405,7 +4405,7 @@ main-slider
   left: 0;
   right: 0;
   z-index: 20;
-  top: 600px;
+  bottom: 60px;
 }
 
 .main-slider__footer-inner {
@@ -6505,51 +6505,6 @@ reviews-block
 /*
 revolution-slider
 */
-
-/* .revolution-slider .tparrows {
-  position: absolute;
-  transform: translateY(-50%) !important;
-  top: 50% !important;
-  background: none !important;
-  opacity: 0.5;
-  transition: opacity 0.3s;
-}
-
-.revolution-slider .tparrows:hover {
-  opacity: 1;
-} */
-
-/* .revolution-slider .tparrows:before {
-  font-size: 44px;
-  font-family: "Linearicons";
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  font-feature-settings: "liga";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
-/* .revolution-slider .tparrows.tp-leftarrow {
-  left: 50px !important;
-  right: auto !important;
-}
-
-.revolution-slider .tparrows.tp-leftarrow:before {
-  content: "\e93b";
-} */
-
-/* .revolution-slider .tparrows.tp-rightarrow {
-  right: 50px !important;
-  left: auto !important;
-} */
-
-/* .revolution-slider .tparrows.tp-rightarrow:before {
-  content: "\e93c";
-} */
 
 /*
 service-block
@@ -8718,7 +8673,7 @@ zoom-slider
 .more-padding {
   margin-right: 40px;
 }
-.details_wrapper{
+.details_wrapper {
   margin-right: 100px;
   display: flex;
 }
