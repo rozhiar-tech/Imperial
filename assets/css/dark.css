@@ -375,3 +375,14 @@ main {
 .zoom-services__item-text {
   color: #999;
 }
+
+.villa_details {
+  /* background: white; */
+  margin: 10px;
+}
+
+.details_wrapper{
+  display: flex;
+
+}
+
