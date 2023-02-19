@@ -8690,3 +8690,36 @@ zoom-slider
   display: flex;
   align-items: flex-start;
 }
+.text-tt {
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  /* vertical-align: top; */
+  color: #fff;
+  /* padding: 4px 6px 1px; */
+  /* margin-bottom: 30px; */
+  font-size: 30px;
+}
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 170px;
+  padding-right: 220px;
+  /* margin-top: 100px; */
+  padding-top: 100px;
+  height: 200px;
+  background-color: #9a1b31;
+  color: #c69b69;
+  width: 100%;
+  justify-content: center;
+  /* word-wrap: initial; */
+}
+
+.about-us__title{
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #fff;
+}
