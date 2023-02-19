@@ -5497,7 +5497,7 @@ parallax-image
 }
 
 .parallax-image__image {
-  background-position: 50%;
+  background-position: 20%;
   background-size: cover;
   height: 100%;
 }
@@ -8716,10 +8716,42 @@ zoom-slider
   /* word-wrap: initial; */
 }
 
-.about-us__title{
+.about-us__title {
   font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 30px;
   color: #fff;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 20px; */
+  margin-top: 20px;
+  color: #c69b69;
+  font-size: 13px;
+
+  font-weight: 600;
+  text-transform: uppercase;
+  /* height: 100px; */
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav__link {
+  color: #c69b69;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.invert {
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  float: none;
 }
