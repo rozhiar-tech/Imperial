@@ -3486,6 +3486,9 @@ header
   width: 100%;
   padding-top: 50px;
   padding-bottom: 1px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .header_fixed .header__container {
@@ -3522,7 +3525,7 @@ header
   display: flex;
   -ms-flex-align: start;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
 }
 @media (max-width: 600px) {
@@ -4409,11 +4412,14 @@ main-slider
 }
 
 .main-slider__footer {
+  background-color: #9a1b31;
   position: absolute;
   left: 0;
   right: 0;
   z-index: 20;
-  bottom: 60px;
+  padding: 20px 0;
+  /* top: 20px; */
+  /* bottom: 0.5px; */
 }
 
 .main-slider__footer-inner {
@@ -5411,7 +5417,7 @@ parallax-block
   text-align: right;
 }
 
-.parallax-block__play {
+/* .parallax-block__play {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -5437,9 +5443,9 @@ parallax-block
   border-width: 20px 0 20px 30px;
   border-color: transparent transparent transparent #fff;
   margin-left: 3px;
-}
+} */
 
-.parallax-block__text {
+/* .parallax-block__text {
   font-size: 16px;
   max-width: 500px;
   margin-bottom: 94px;
@@ -5485,7 +5491,7 @@ parallax-block
   left: 0;
   bottom: 0;
   width: 100%;
-}
+} */
 
 /*
 parallax-image
@@ -5862,6 +5868,7 @@ project-detail
 .project-detail {
   padding-top: 110px;
   overflow: hidden;
+  background-color: #9a1b31;
 }
 
 .project-detail__head-items {
@@ -6921,7 +6928,7 @@ specialization-block
 
 .specialization-block {
   padding-top: 125px;
-  padding-bottom: 100px;
+  padding-bottom: 0;
   background-color: #9a1b31;
   margin-bottom: 0;
 }
@@ -6933,6 +6940,7 @@ specialization-block
 }
 .bloc-img2 {
   transform: scaleX(-1);
+  /* width: 12px; */
 }
 /* @media screen and (max-width: 767px) {
   .bloc-img {
@@ -8756,7 +8764,7 @@ ul {
   float: none;
 }
 
-.devider{
+.devider {
   width: 100%;
   height: 1px;
   color: #c69b69;
@@ -8765,27 +8773,25 @@ ul {
   margin-left: 20px;
 }
 
-.inner-about{
+.inner-about {
   height: 300px;
   width: 660px;
   font-size: medium;
 }
 
-@media only screen and (max-width: 600px){
-  .inner-about{
+@media only screen and (max-width: 600px) {
+  .inner-about {
     height: 200px;
     width: 400%;
     padding-bottom: 20px;
     /* margin-bottom: 20px; */
     font-size: 14px;
   }
-  .about-us__title{
+  .about-us__title {
     font-size: 20px;
-
   }
 }
 
-
-
-
-  
+.links_for_pages {
+  background-color: #9a1b31;
+}
