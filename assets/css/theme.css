@@ -5875,7 +5875,7 @@ project-detail
 
 .project-detail__head-items {
   margin-top: 68px;
-  margin-bottom: 118px;
+  margin-bottom: 28px;
   font-size: 16px;
 }
 
@@ -8805,8 +8805,8 @@ ul {
   text-align: justify;
   /* text-justify: inter-word; */
 }
-
+/* 
 .superMarket {
   width: 140px;
   height: 140px;
-}
+} */
