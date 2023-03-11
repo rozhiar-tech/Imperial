@@ -4266,6 +4266,8 @@ main-slide
 
 .main-slide__text-wrapper {
   max-width: 500px;
+  text-align: justify;
+  /* text-justify: inter-word; */
 }
 
 .main-slide__text-wrapper:not(:last-child) {
@@ -4275,7 +4277,7 @@ main-slide
 .main-slide__text {
   font-size: 15px;
   line-height: 1.6;
-  overflow-wrap: normal;
+  /* overflow-wrap: normal; */
 }
 
 .main-slide_size_medium .main-slide__text {
@@ -5964,6 +5966,8 @@ project-detail
   line-height: 1.75;
   color: #666;
   margin-bottom: 75px;
+  /* width: 600px; */
+  text-align: justify;
 }
 
 .project-detail__footer-link {
@@ -7019,7 +7023,7 @@ specialization-block
   scale: 1.1;
 }
 .specialization-block__item-title {
-  font-size: 20px;
+  font-size: 13px;
   /* font-family: "Teko", Helvetica, sans-serif; */
   line-height: 1;
   /* margin-bottom: 14px; */
@@ -8794,4 +8798,15 @@ ul {
 
 .links_for_pages {
   background-color: #9a1b31;
+}
+
+.tp-caption {
+  width: 300px;
+  text-align: justify;
+  /* text-justify: inter-word; */
+}
+
+.superMarket {
+  width: 140px;
+  height: 140px;
 }
