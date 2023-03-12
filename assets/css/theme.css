@@ -509,6 +509,7 @@ article-listing-item
   font-size: 36px;
   line-height: 1;
   margin-bottom: 32px;
+  color: #c69b69;
 }
 
 .article-listing-item__item-inner:hover .article-listing-item__title {
@@ -519,6 +520,7 @@ article-listing-item
   min-height: 255px;
   color: #666;
   transition: 0.3s;
+  /* width: 755px; */
 }
 
 .article-listing-item:hover .article-listing-item__text {
@@ -652,7 +654,7 @@ articles-list-wrapper
   padding-bottom: 134px;
   overflow: hidden;
   margin-top: 112px;
-  border-bottom: 1px solid #ebebeb;
+  /* border-bottom: 1px solid #ebebeb; */
 }
 
 .articles-list-wrapper__head {
@@ -3710,6 +3712,7 @@ heading-default
   font-size: 80px;
   line-height: 1.2;
   margin-bottom: 11px;
+  color: #c69b69;
 }
 
 .heading-default__breadcrumbs {
@@ -4638,6 +4641,7 @@ masonry
   margin-right: 34px;
   transition: color 0.3s;
   line-height: inherit;
+  color: #c69b69;
 }
 
 .masonry__secondary-filter-button:after {
@@ -4653,7 +4657,7 @@ masonry
 }
 
 .masonry__secondary-filter-button:hover {
-  color: #9a1b31;
+  color: #c69b69;
 }
 
 .masonry__secondary-filter-button:hover:after {
@@ -4661,7 +4665,7 @@ masonry
 }
 
 .masonry__secondary-filter-button_active {
-  color: #9a1b31;
+  color: #c69b69;
 }
 
 .masonry__secondary-filter-button_active:after {
@@ -8810,3 +8814,42 @@ ul {
   width: 140px;
   height: 140px;
 } */
+
+.whole-page {
+  background-color: #9a1b31;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.colored_button {
+  color: white !important;
+}
+
+.colored_button:hover {
+  color: #c69b69 !important;
+}
+
+.colored_button:active {
+  color: #c69b69 !important;
+}
+
+.kurdishText {
+  font-family: "Noto Sans Kurdish", sans-serif;
+  text-align: right;
+  margin-top: 4px;
+}
+
+.hiddenTxt {
+  /* display: none; */
+}
+
+.info_text {
+  margin: 0;
+}
+.info_title {
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #c69b69;
+}
