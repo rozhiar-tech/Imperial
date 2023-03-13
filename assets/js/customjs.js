@@ -4,7 +4,7 @@ const langSwitchLink = document.getElementById("En");
 // Loop through each link and attach a click event listener
 
 function redirectUserToSecondIndexPage() {
-  window.location.href = "index2.html";
+  // window.location.href = "index2.html";
 }
 function redirectUserToFirstIndexPage() {
   window.location.href = "/";

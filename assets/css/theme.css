@@ -465,6 +465,17 @@ article-listing-item
   transform: scale(1.04);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .article-listing-item__cover-image {
+    transform: scale(0.9);
+  }
+}
+@media screen and (max-width: 768px) {
+  .article-listing-item__cover-image {
+    transform: scale(0.9);
+  }
+}
+
 .article-listing-item__content {
   width: 33.333333333333336%;
   padding: 60px 55px 55px;
